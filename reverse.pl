@@ -1,4 +1,4 @@
-reverse([], []).
-reverse([X | Y], R) :-
-    reverse(Y, R1),
+reversed([], []).
+reversed([X | Y], R) :-
+    reversed(Y, R1),
     append(R1, [X], R).
